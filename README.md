@@ -116,4 +116,4 @@ Sinta-se à vontade para abrir *issues*, sugerir melhorias ou enviar *pull reque
 
 ## 👨‍💻 Autor
 
-Desenvolvido por [Seu Nome Aqui].
+Desenvolvido por José de Almeida (NekoZer0).

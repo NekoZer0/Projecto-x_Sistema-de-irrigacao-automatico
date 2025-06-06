@@ -32,6 +32,26 @@ Este projeto tem como objetivo monitorar a umidade do solo usando um **sensor de
 
 ---
 
+## 🗂️ Estrutura de Pastas
+
+```
+PROJECTO_X_SISTEMA_DE_IRRIGACAO_AUTOMATICO/
+├── Arduino/
+│   └── Projecto_X_Sistema_de_irrigacao_automatico/
+│       ├── build/
+│       │   ├── arduino.avr.uno
+│       │   └── arduino.avr.circuitplay32u4cat
+│       └── Projecto_X_Sistema_de_irrigacao_automatico.ino
+├── Proteus/
+│   ├── Project Backups/
+│   │   └── Vários backups automáticos (*.pdsprj)
+│   ├── Projecto_X_Sistema_de_irrigacao_automatico.pdsprj
+│   └── Projecto_X_Sistema_de_irrigacao_automatico.pdsprj.JS02.Huawei.workspace
+├── README.md
+```
+
+---
+
 ## 🖥️ Esquema do Circuito
 
 O circuito foi desenvolvido no **Proteus** e está conectado da seguinte forma:
@@ -42,13 +62,29 @@ O circuito foi desenvolvido no **Proteus** e está conectado da seguinte forma:
 - **D0 do sensor** → Pino digital 8 do Arduino  
 - **LED** conectado ao LED_BUILTIN (pino 13 do Arduino UNO)
 
-![Esquema no Proteus](./debde5df-5613-4e57-aa0c-52f6b676b158.png)
+![Esquema no Proteus](./f6eaaeaf-f2c4-423c-8e4e-843e592afacb.png)
+
+---
+
+## ▶️ Como Abrir o Projeto
+
+### 🔹 Código Arduino:
+1. Acesse a pasta `Arduino/Projecto_X_Sistema_de_irrigacao_automatico/`.
+2. Abra o arquivo `Projecto_X_Sistema_de_irrigacao_automatico.ino` com o **Arduino IDE**.
+3. Conecte a placa (se estiver usando hardware real) ou use o **Proteus** para simular.
+
+### 🔹 Simulação no Proteus:
+1. Vá para a pasta `Proteus/`.
+2. Abra o arquivo `Projecto_X_Sistema_de_irrigacao_automatico.pdsprj` com o **Proteus 8.x**.
+3. Clique em **Play** para iniciar a simulação.
+
+> ⚠️ Se necessário, selecione o arquivo `.hex` ou carregue o `.ino` a partir da simulação.
 
 ---
 
 ## 💻 Código-Fonte
 
-O código completo está no arquivo [`main.ino`](./main.ino) e implementa:
+O código completo está no arquivo [`Projecto_X_Sistema_de_irrigacao_automatico.ino`](./Arduino/Projecto_X_Sistema_de_irrigacao_automatico/Projecto_X_Sistema_de_irrigacao_automatico.ino) e implementa:
 
 - Leitura digital e analógica do sensor
 - Detecção de mudanças no estado do solo
